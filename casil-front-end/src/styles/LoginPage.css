@@ -1,0 +1,104 @@
+.loginForm {
+    width: 100%;
+    max-width: 800px;
+    padding: 2.5rem 2rem;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    position: relative;
+    margin: 0 auto; 
+}
+
+.loginForm h2 {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 1.8rem;
+    font-weight: 700;
+}
+
+.loginForm label {
+    display: block;
+    margin-bottom: 0.5rem;
+    text-align: left;
+    color: #34495e;
+    font-weight: 600;
+}
+
+.loginForm input {
+    width: calc(100% - 2rem); 
+    padding: 0.85rem;
+    margin: 0 auto 1.5rem auto; 
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border 0.3s ease;
+    background-color: #f9f9f9;
+    color: #000000;
+}
+
+.loginForm input:focus {
+    border-color: #3498db;
+    outline: none;
+    color: #000000;
+}
+
+.loginForm input::placeholder {
+    color: #95a5a6;
+    text-align: left;
+}
+
+.loginForm p {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #7f8c8d;
+    text-align: center; 
+}
+
+@media (max-width: 480px) {
+    .loginForm {
+        padding: 2rem 1.2rem;
+    }
+
+    .loginForm h2 {
+        font-size: 1.5rem;
+    }
+}
+
+.signup-link {
+    color: #00FFFF;  
+    text-decoration: none;
+    font-weight: bold;  
+    font-size: 1.2rem;  
+    cursor: pointer;
+    transition: color 0.3s ease;  
+}
+
+.signup-link:hover {
+    color: #87CEFA;  
+}
+
+
+.loginForm p {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #7f8c8d;
+    text-align: center;  
+}
+.back-button {
+    all: unset; /* Removes all default button styles */
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    color: #00ffff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    cursor: pointer;
+    z-index: 999;
+    transition: color 0.3s ease;
+}
+
+.back-button:hover {
+    color: #ff00ff;
+}

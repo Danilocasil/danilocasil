@@ -1,0 +1,42 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #204d63; 
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.reports-container {
+  padding: 40px 32px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  max-width: 900px;
+  margin: 40px auto;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+}
+
+.reports-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.reports-charts {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.reports-chart-box {
+  flex: 1;
+  min-width: 400px;
+}
+
+.reports-pie-chart {
+  margin-top: 48px;
+  text-align: center;
+}

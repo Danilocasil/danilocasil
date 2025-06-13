@@ -1,0 +1,28 @@
+.article-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.4); 
+  border-radius: 10px;
+  backdrop-filter: blur(5px); 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.article-container h1 {
+  font-size: 2.5rem;
+  color: #00f7ff;
+  text-align: center;
+}
+
+.article-container h2 {
+  font-size: 1.5rem;
+  color: #80dfff;
+  text-align: center;
+}
+
+.article-container p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #e0f7ff;
+  margin-bottom: 1rem;
+}
