@@ -2,7 +2,7 @@ import React from "react";
 import { BarChart } from "@mui/x-charts/BarChart";
 import { PieChart } from "@mui/x-charts/PieChart";
 import { DataGrid } from "@mui/x-data-grid";
-import "../styles/Dashboardpage.css";
+import "../styles/DashboardPage.css";
 
 const DashboardPage = () => {
   const users = [
