@@ -1,5 +1,5 @@
 const constants = {
-    HOST: "http://localhost:5000",  
+    HOST: "https://danilocasil-backend.onrender.com",  
   };
   
   export default constants;
