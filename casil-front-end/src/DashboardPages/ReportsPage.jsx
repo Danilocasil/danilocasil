@@ -2,7 +2,7 @@ import * as React from 'react';
 import { BarChart } from '@mui/x-charts/BarChart';
 import { LineChart } from '@mui/x-charts/LineChart';
 import { PieChart } from '@mui/x-charts/PieChart';
-import '../styles/reports.css';
+import '../styles/Reports.css';
 
 const ReportsPage = () => {
   const pieData = [
